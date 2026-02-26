@@ -1,27 +1,28 @@
-# Environments
-.env
-.env.local
-.env.development
-.env.production
-
-# Dependencies
-node_modules/
+# Python
 __pycache__/
+*.py[cod]
 .python-version
 
-# Build artifacts
-build/
-dist/
-*.egg-info
-
-# Database
-*.db
-*.sqlite
+# Environment
+.env
+.env.local
 
 # IDE
 .vscode/
 .idea/
 
-# Misc
-.DS_Store
+# Database
+*.db
+*.sqlite
+
+# Logs
 *.log
+
+# Build/install
+build/
+dist/
+*.egg-info/
+
+# System
+.DS_Store
+Thumbs.db
